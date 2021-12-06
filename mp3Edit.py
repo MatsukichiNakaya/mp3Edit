@@ -73,7 +73,7 @@ def OutputImages(audio_file):
 
 
 if __name__ == "__main__":
-    audio_file = r'D:\User\NAKATSU\Music\にじさんじ\linklink\LINK・LINK.mp3'
-    cover_file = r'D:\MMD\Projects\EffectTest\cover001.png'
+    audio_file = r'LINK・LINK.mp3'
+    cover_file = r'cover001.png'
     OutputImages(audio_file)
     SetFrontCover(audio_file, cover_file)
